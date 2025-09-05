@@ -406,4 +406,5 @@ RECIPE {
         {type = "fluid", name = "bitumen",      amount = 25},
     },
     main_product = "residual-oil",
+    allow_productivity = true,
 }:add_unlock("heavy-oil-mk01")

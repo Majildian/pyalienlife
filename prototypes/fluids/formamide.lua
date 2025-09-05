@@ -13,7 +13,8 @@ RECIPE {
         {type = "fluid", name = "formamide", amount = 100},
         {type = "fluid", name = "methanol",  amount = 100, ignored_by_productivity = 100, ignored_by_stats = 100},
     },
-    main_product = "formamide"
+    main_product = "formamide",
+    allow_productivity = true,
 }:add_unlock("biotech-mk02")
 
 FLUID {

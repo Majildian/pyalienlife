@@ -2,6 +2,7 @@
 Version: 3.0.58
 Date: ???
   Changes:
+    - Enabled productivity for phagnot TURD alternate food recipes.
     - Caravans: allow copy-paste between different types (regular, flying, fluid).
     - Caravans: made edit interrupt GUI wider
     - Caravans: fixed condition item_count being nil sometimes

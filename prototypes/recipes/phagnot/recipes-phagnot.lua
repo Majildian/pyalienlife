@@ -52,6 +52,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-giraffe-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("phagnot")
 
 ----food----
@@ -77,6 +78,7 @@ RECIPE {
     results = {
         {type = "item", name = "phagnot-food-01", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("phagnot"):add_ingredient {type = "item", name = "raw-fiber", amount = 10}
 
 RECIPE {
@@ -103,6 +105,7 @@ RECIPE {
     results = {
         {type = "item", name = "phagnot-food-02", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("phagnot-mk03"):add_ingredient {type = "item", name = "raw-fiber", amount = 10}
 
 ---maturing---

@@ -22,6 +22,7 @@ RECIPE {
     results = {
         {type = "item", name = "bhoddos", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("bhoddos")
 
 RECIPE {

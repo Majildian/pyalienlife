@@ -78,6 +78,7 @@ RECIPE {
     results = {
         {type = "item", name = "wood-seedling", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("wood-processing")
 
 RECIPE {
@@ -92,6 +93,7 @@ RECIPE {
     results = {
         {type = "item", name = "wood-seeds", amount = 4},
     },
+    allow_productivity = true,
 }:add_unlock("wood-processing")
 
 RECIPE {
@@ -120,6 +122,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "carbon-dioxide", amount = 80},
     },
+    allow_productivity = true,
 }:add_unlock("coal-processing-1")
 
 RECIPE {
@@ -135,6 +138,7 @@ RECIPE {
     results = {
         {type = "item", name = "agar", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("petri-dish")
 
 RECIPE {
@@ -150,6 +154,7 @@ RECIPE {
     results = {
         {type = "item", name = "petri-dish", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("petri-dish")
 
 RECIPE {
@@ -165,6 +170,7 @@ RECIPE {
     results = {
         {type = "item", name = "moss-gen", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk01")
 
 RECIPE {
@@ -181,6 +187,7 @@ RECIPE {
     results = {
         {type = "item", name = "cage", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("land-animals-mk01")
 
 if mods.pyalternativeenergy then
@@ -191,10 +198,10 @@ if mods.pyalternativeenergy then
         enabled = false,
         energy_required = 4,
         ingredients = {
-            {type = "item", name = "cage",           amount = 1},
+            {type = "item", name = "cage", amount = 1},
         },
         results = {
-            {type = "item", name = "iron-stick",     amount = 15, probability = 0.25},
+            {type = "item", name = "iron-stick", amount = 15, probability = 0.25},
             {type = "item", name = "solder",     amount = 2,  probability = 0.25},
             (not mods.pystellarexpedition) and {type = "item", name = "titanium-plate", amount = 5, probability = 0.25} or nil,
         },
@@ -232,6 +239,7 @@ RECIPE {
     results = {
         {type = "item", name = "neuroprocessor", amount = 2},
     },
+    allow_productivity = true,
 }:add_unlock("neuro-electronics-mk01"):add_ingredient {type = "item", name = "cermet", amount = 5}
 
 RECIPE {
@@ -247,6 +255,7 @@ RECIPE {
     results = {
         {type = "item", name = "py-science-pack-1", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("py-science-pack-mk01")
 
 RECIPE {
@@ -271,6 +280,7 @@ RECIPE {
     results = {
         {type = "item", name = "py-science-pack-2", amount = 18},
     },
+    allow_productivity = true,
 }:add_unlock("py-science-pack-mk02")
 
 RECIPE {
@@ -294,6 +304,7 @@ RECIPE {
     results = {
         {type = "item", name = "py-science-pack-3", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("py-science-pack-mk03")
 
 RECIPE {
@@ -317,6 +328,7 @@ RECIPE {
     results = {
         {type = "item", name = "py-science-pack-4", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("py-science-pack-mk04")
 
 RECIPE {
@@ -334,7 +346,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "fertilizer", amount = 10}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("fertilizer-mk02"):replace_ingredient("manure", "urea")
 
 RECIPE {
@@ -350,7 +363,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "fertilizer", amount = 5}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("fertilizer-mk01")
 
 RECIPE {
@@ -364,7 +378,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "fertilizer", amount = 3}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("fertilizer-mk02")
 
 RECIPE {
@@ -378,7 +393,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "fertilizer", amount = 3}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("fertilizer-mk03")
 
 RECIPE {
@@ -392,7 +408,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "fertilizer", amount = 2}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("fertilizer-mk03")
 
 RECIPE {
@@ -407,7 +424,8 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "flutec-pp6", amount = 100}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("biotech-mk02")
 
 RECIPE {
@@ -424,7 +442,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "cobalt-fluoride", amount = 3}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("cobalt-mk01")
 
 RECIPE {
@@ -441,7 +460,8 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "decalin", amount = 50}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("biotech-mk02")
 
 RECIPE {
@@ -456,7 +476,8 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "flavonoids", amount = 30}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("yaedols")
 
 RECIPE {
@@ -474,7 +495,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "cytostatics", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("genetics-mk03")
 
 RECIPE {
@@ -513,7 +535,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "microcin-j25", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("genetics-mk04")
 
 RECIPE {
@@ -592,7 +615,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "mukmoux-fat", amount = 10}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("biotech-mk02")
 
 RECIPE {
@@ -606,7 +630,8 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "hydrogen-chloride", amount = 50}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("biotech-mk02")
 
 RECIPE {
@@ -643,6 +668,7 @@ RECIPE {
         {type = "item", name = "skin", amount = 1},
         {type = "item", name = "fur",  amount = 10},
     },
+    allow_productivity = true,
     main_product = "fur",
 }:add_unlock("pharmacogenomics")
 
@@ -707,6 +733,7 @@ RECIPE {
         {type = "item", name = "mixed-ores", amount = 5},
         {type = "item", name = "stone",      amount = 1, probability = 0.5},
     },
+    allow_productivity = true,
     main_product = "mixed-ores",
 }:add_unlock("cobalt-mk01"):add_ingredient {type = "item", name = "rare-earth-ore", amount = 4}
 
@@ -722,10 +749,11 @@ RECIPE {
         {type = "item",  name = "mixed-ores",    amount = 15},
     },
     results = {
-        {type = "item",  name = "cobalt-extract",    amount = 3},
-        {type = "fluid", name = "tailings", amount = 50},
+        {type = "item",  name = "cobalt-extract", amount = 3},
+        {type = "fluid", name = "tailings",       amount = 50},
     },
     main_product = "cobalt-extract",
+    allow_productivity = true,
 }:add_unlock("cobalt-mk01")
 
 RECIPE {
@@ -742,6 +770,7 @@ RECIPE {
     results = {
         {type = "item", name = "cobalt-sulfate", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("cobalt-mk02")
 
 RECIPE {
@@ -757,6 +786,7 @@ RECIPE {
     results = {
         {type = "item", name = "cobalt-sulfate-02", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("cobalt-mk02")
 
 RECIPE {
@@ -770,10 +800,11 @@ RECIPE {
         {type = "item",  name = "cobalt-sulfate-02", amount = 3},
     },
     results = {
-        {type = "item",  name = "cobalt-oxide",      amount = 3},
-        {type = "fluid", name = "tailings", amount = 100},
+        {type = "item",  name = "cobalt-oxide", amount = 3},
+        {type = "fluid", name = "tailings",     amount = 100},
     },
     main_product = "cobalt-oxide",
+    allow_productivity = true,
 }:add_unlock("cobalt-mk02")
 
 RECIPE {
@@ -789,6 +820,7 @@ RECIPE {
     results = {
         {type = "item", name = "cobalt-nx", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("cobalt-mk02"):add_ingredient {type = "item", name = "ceramic", amount = 10}
 
 RECIPE {
@@ -859,7 +891,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "zymogens", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("pharmacogenomics")
 
 RECIPE {
@@ -880,7 +913,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "mmp", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("pharmacogenomics"):replace_ingredient("fetal-serum", "dms")
 
 RECIPE {
@@ -895,7 +929,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "peptidase-m58", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("pharmacogenomics")
 
 RECIPE {
@@ -917,7 +952,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "alien-enzymes", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("pharmacogenomics"):add_ingredient {type = "item", name = "paramagnetic-material", amount = 1} --:add_ingredient({type = "item", name = "diamagnetic-material", amount = 1})
 
 RECIPE {
@@ -977,7 +1013,8 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "nitrogen-mustard", amount = 100}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("immunosupressants")
 
 RECIPE {
@@ -993,7 +1030,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "pacifastin", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("immunosupressants"):add_ingredient {type = "item", name = "bolts", amount = 15}
 
 RECIPE {
@@ -1012,7 +1050,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "metallic-glass", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("bio-implants"):add_ingredient {type = "item", name = "paramagnetic-material", amount = 2}:replace_ingredient("nickel-plate", "powdered-phosphate-rock"):change_category("nano")
 
 RECIPE {
@@ -1052,7 +1091,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "nanochondria", amount = 200}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("nanochondria"):add_ingredient {type = "item", name = "resilin", amount = 1}:add_ingredient {type = "item", name = "collagen", amount = 5}:replace_ingredient("bacteria-1", "bacteria-2"):change_category("nano")
 
 RECIPE {
@@ -1116,7 +1156,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "hyaline", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("biotech-mk04"):add_ingredient {type = "item", name = "collagen", amount = 3}
 
 RECIPE {
@@ -1131,7 +1172,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "cellulose", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("cellulose-mk01")
 
 RECIPE {
@@ -1146,7 +1188,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "cellulose", amount = 2}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("cellulose-mk01")
 
 RECIPE {
@@ -1163,6 +1206,7 @@ RECIPE {
     results = {
         {type = "item", name = "lignin", amount = 8},
     },
+    allow_productivity = true,
 }:add_unlock("cellulose-mk02"):change_category("cracker")
 
 RECIPE {
@@ -1177,6 +1221,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "aromatics", amount = 150},
     },
+    allow_productivity = true,
 }:add_unlock("cellulose-mk02")
 
 RECIPE {
@@ -1198,7 +1243,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "pheromones", amount = 100}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("pheromones"):add_ingredient {type = "item", name = "biopolymer", amount = 10}
 
 RECIPE {
@@ -1219,6 +1265,7 @@ RECIPE {
     results = {
         {type = "item", name = "empty-neuromorphic-chip", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("neuro-electronics-mk02")
 
 RECIPE {
@@ -1251,6 +1298,7 @@ RECIPE {
     results = {
         {type = "item", name = "nano-cellulose", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("cellulose-mk03")
 
 RECIPE {
@@ -1267,6 +1315,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "gasoline", amount = 100},
     },
+    allow_productivity = true,
 }:add_unlock("fuel-production")
 
 RECIPE {
@@ -1284,6 +1333,7 @@ RECIPE {
     results = {
         {type = "item", name = "filtration-media", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("cellulose-mk02")
 
 RECIPE {
@@ -1300,6 +1350,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "syngas", amount = 100},
     },
+    allow_productivity = true,
 }:add_unlock("cellulose-mk02")
 
 RECIPE {
@@ -1315,6 +1366,7 @@ RECIPE {
     results = {
         {type = "item", name = "cellulose", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("cellulose-mk02")
 
 RECIPE {
@@ -1352,7 +1404,8 @@ RECIPE {
     },
     main_product = "crude-oil",
     subgroup = "py-alienlife-recipes",
-    order = "a"
+    order = "a",
+    allow_productivity = true,
 }:add_unlock("biotech-mk03")
 
 RECIPE {
@@ -1369,7 +1422,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "sodium-alginate", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("latex")
 
 RECIPE {
@@ -1385,7 +1439,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "latex-slab", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("latex")
 
 RECIPE {
@@ -1400,7 +1455,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "latex", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("latex")
 
 RECIPE {
@@ -1415,7 +1471,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "stopper", amount = 4}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("py-science-pack-mk01")
 
 RECIPE {
@@ -1449,6 +1506,7 @@ RECIPE {
         {type = "item", name = "bio-container", amount = 1}
     },
     --main_product = "adrenal-cortex",
+    allow_productivity = true,
 }:add_unlock("biotech-mk01")
 
 RECIPE {
@@ -1463,6 +1521,7 @@ RECIPE {
     results = {
         {type = "item", name = "raw-coal", amount = 10}
     },
+    allow_productivity = true,
     --main_product = "adrenal-cortex",
 }:add_unlock("navens")
 
@@ -1486,7 +1545,8 @@ RECIPE {
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
-    order = "a"
+    order = "a",
+    allow_productivity = true,
 }:add_unlock("energy-2")
 
 --fish oil to CM1
@@ -1509,7 +1569,8 @@ RECIPE {
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
-    order = "a"
+    order = "a",
+    allow_productivity = true,
 }:add_unlock("energy-2")
 
 --mukmoux-fat to CM1
@@ -1532,7 +1593,8 @@ RECIPE {
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
-    order = "a"
+    order = "a",
+    allow_productivity = true,
 }:add_unlock("energy-1")
 
 -----ethanol to CM1---
@@ -1556,7 +1618,8 @@ RECIPE {
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
-    order = "a"
+    order = "a",
+    allow_productivity = true,
 }:add_unlock("energy-3")
 
 --bio-oil to CM1
@@ -1633,6 +1696,7 @@ RECIPE {
     results = {
         {type = "item", name = "energy-drink", amount = 7}
     },
+    allow_productivity = true,
     --main_product = "adrenal-cortex",
 }:add_unlock("energy-drink")
 
@@ -1665,6 +1729,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "sweet-syrup", amount = 50},
     },
+    allow_productivity = true,
     --main_product = "a-molasse",
 }:add_unlock("sugar")
 
@@ -1681,6 +1746,7 @@ RECIPE {
     results = {
         {type = "item", name = "sugar", amount = 10},
     },
+    allow_productivity = true,
     --main_product = "a-molasse",
 }:add_unlock("sugar")
 
@@ -1715,6 +1781,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "ethanol", amount = 100},
     },
+    allow_productivity = true,
     --main_product = "b-molasse",
 }:add_unlock("ethanol")
 
@@ -1730,6 +1797,7 @@ RECIPE {
     results = {
         {type = "item", name = "lime", amount = 10},
     },
+    allow_productivity = true,
     --main_product = "b-molasse",
 }:add_unlock("water-invertebrates-mk02")
 
@@ -1750,6 +1818,7 @@ RECIPE {
     results = {
         {type = "item", name = "replicator-bioreserve", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("mega-farm-bioreserve") --:add_ingredient({type = "item", name = "nems", amount = 10}):add_ingredient({type = "item", name = "carbon-nanotube", amount = 10})
 
 
@@ -1767,6 +1836,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "oleochemicals", amount = 200},
     },
+    allow_productivity = true,
     --main_product = "b-molasse",
 }:add_unlock("mycology-mk03")
 
@@ -1797,10 +1867,10 @@ RECIPE {
         {type = "fluid", name = "depolymerized-organics", amount = 100},
     },
     results = {
-        {type = "fluid", name = "crude-oil",         amount = 70},
-        {type = "fluid", name = "steam",             amount = 50, temperature = 150},
-        {type = "fluid", name = "tailings", amount = 50},
-        {type = "item",  name = "ash",               amount = 3},
+        {type = "fluid", name = "crude-oil", amount = 70},
+        {type = "fluid", name = "steam",     amount = 50, temperature = 150},
+        {type = "fluid", name = "tailings",  amount = 50},
+        {type = "item",  name = "ash",       amount = 3},
     },
     main_product = "crude-oil",
 }:add_unlock("light-oil-mk01")
@@ -1841,6 +1911,7 @@ RECIPE {
     results = {
         {type = "item", name = "magnetic-beads", amount = 5},
     },
+    allow_productivity = true,
 }:add_unlock("chitin"):change_category("nano")
 
 RECIPE {
@@ -1890,6 +1961,7 @@ RECIPE {
     results = {
         {type = "item", name = "filtration-media", amount = 200},
     },
+    allow_productivity = true,
 }:add_unlock("filtration-mk02"):add_ingredient {type = "item", name = "micro-fiber", amount = 15}
 
 RECIPE {
@@ -1909,6 +1981,7 @@ RECIPE {
     results = {
         {type = "item", name = "biobattery", amount = 5},
     },
+    allow_productivity = true,
 }:add_unlock("biobattery"):add_ingredient {type = "item", name = "ceramic", amount = 5}
 
 RECIPE {
@@ -1918,7 +1991,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item",  name = "chitosan",          amount = 3},
+        {type = "item",  name = "chitosan", amount = 3},
         {type = "fluid", name = "tailings", amount = 150},
     },
     results = {
@@ -1933,7 +2006,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item",  name = "chitosan",          amount = 3},
+        {type = "item",  name = "chitosan", amount = 3},
         {type = "fluid", name = "tailings", amount = 150},
     },
     results = {
@@ -2060,8 +2133,8 @@ RECIPE {
         {type = "fluid", name = "water",          amount = 500},
     },
     results = {
-        {type = "fluid", name = "casein-pulp-01",    amount = 100},
-        {type = "fluid", name = "muddy-sludge", amount = 50},
+        {type = "fluid", name = "casein-pulp-01", amount = 100},
+        {type = "fluid", name = "muddy-sludge",   amount = 50},
     },
     main_product = "casein-pulp-01",
 }:add_unlock("korlex")
@@ -2655,7 +2728,8 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "organic-solvent", amount = 130},
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("biotech-mk03"):add_ingredient {type = "fluid", name = "cumene", amount = 20}
 
 RECIPE {
@@ -2672,6 +2746,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "fetal-serum", amount = 50},
     },
+    allow_productivity = true,
     --main_product = "cocoon",
 }:add_unlock("biotech-mk02")
 
@@ -2689,6 +2764,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-generic-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("xenobiology")
 
 RECIPE {
@@ -2720,7 +2796,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "fertilizer", amount = 10}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("fertilizer-mk02"):replace_ingredient("manure", "urea")
 
 RECIPE {
@@ -2734,7 +2811,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "raw-fiber", amount = 2}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("wood-processing")
 
 RECIPE {
@@ -2767,6 +2845,7 @@ RECIPE {
     results = {
         {type = "item", name = "concrete", amount = 20},
     },
+    allow_productivity = true,
     --main_product = "cocoon",
 }:add_unlock("cellulose-mk02")
 
@@ -2789,7 +2868,8 @@ RECIPE {
     icon = "__pycoalprocessinggraphics__/graphics/icons/soil-separation.png",
     icon_size = 32,
     subgroup = "py-items-class",
-    order = "e"
+    order = "e",
+    allow_productivity = true,
 }:add_unlock("separation")
 
 RECIPE {
@@ -2805,6 +2885,7 @@ RECIPE {
     results = {
         {type = "item", name = "empty-planter-box", amount = 1},
     },
+    allow_productivity = true,
 }
 
 RECIPE {
@@ -2820,6 +2901,7 @@ RECIPE {
     results = {
         {type = "item", name = "planter-box", amount = 1},
     },
+    allow_productivity = true,
 }
 
 RECIPE {
@@ -2909,6 +2991,7 @@ RECIPE {
     results = {
         {type = "item", name = "workers-food", amount = 2},
     },
+    allow_productivity = true,
 }:add_unlock("starch-mk01")
 
 RECIPE {
@@ -2932,6 +3015,7 @@ RECIPE {
     results = {
         {type = "item", name = "workers-food-02", amount = 8},
     },
+    allow_productivity = true,
 }:add_unlock("nexelit-mk03")
 
 RECIPE {
@@ -2958,6 +3042,7 @@ RECIPE {
         {type = "item", name = "workers-food-03", amount = 8},
         {type = "item", name = "cage",            amount = 1},
     },
+    allow_productivity = true,
     main_product = "workers-food-03"
 }:add_unlock("biofluid-mk03")
 

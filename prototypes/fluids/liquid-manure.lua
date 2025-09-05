@@ -11,6 +11,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "liquid-manure", amount = 100},
     },
+    allow_productivity = true,
     --main_product = "cocoon",
 }:add_unlock("cottongut-science-mk01")
 

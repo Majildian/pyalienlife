@@ -22,6 +22,7 @@ RECIPE {
     results = {
         {type = "item", name = "yaedols", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("yaedols")
 
 RECIPE {
@@ -51,6 +52,7 @@ RECIPE {
     results = {
         {type = "item", name = "yaedols-spores", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("yaedols")
 
 -- RECIPE {

@@ -72,6 +72,7 @@ RECIPE {
     results = {
         {type = "item", name = "cottongut-food-01", amount = 4},
     },
+    allow_productivity = true,
 }:add_unlock("cottongut-mk01")
 
 RECIPE {
@@ -93,6 +94,7 @@ RECIPE {
     results = {
         {type = "item", name = "cottongut-food-02", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("cottongut-mk02"):add_ingredient {type = "item", name = "moondrop", amount = 10}
 
 ---breeding---

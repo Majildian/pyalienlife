@@ -721,5 +721,6 @@ RECIPE {
     results = {
         {type = "item", name = "energy-drink", amount = 10}
     },
+    allow_productivity = true,
     --main_product = "adrenal-cortex",
 }:add_unlock("ethanol-boost")

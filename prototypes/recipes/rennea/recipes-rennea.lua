@@ -21,6 +21,7 @@ RECIPE {
     results = {
         {type = "item", name = "rennea", amount = 2},
     },
+    allow_productivity = true,
 }:add_unlock("rennea")
 
 RECIPE {
@@ -54,6 +55,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-sunflower-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("rennea")
 
 ---breeding---
@@ -72,6 +74,7 @@ RECIPE {
     results = {
         {type = "item", name = "rennea-seeds", amount = 7}
     },
+    allow_productivity = true,
 }:add_unlock("rennea")
 
 
@@ -94,4 +97,5 @@ RECIPE {
     results = {
         {type = "item", name = "replicator-rennea", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("mega-farm-rennea"):add_ingredient {type = "item", name = "nems", amount = 10}:add_ingredient {type = "item", name = "carbon-nanotube", amount = 10}

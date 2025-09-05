@@ -20,6 +20,7 @@ RECIPE {
     results = {
         {type = "item", name = "arthurian", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("arthurian")
 
 RECIPE {
@@ -53,6 +54,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-lizard-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("arthurian")
 
 ----food----
@@ -76,6 +78,7 @@ RECIPE {
     results = {
         {type = "item", name = "arthurian-food-01", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("arthurian-mk02")
 
 RECIPE {
@@ -102,6 +105,7 @@ RECIPE {
     results = {
         {type = "item", name = "arthurian-food-02", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("arthurian-mk03")
 
 
@@ -127,6 +131,7 @@ RECIPE {
     main_product = "arthurian-pup",
     subgroup = "py-alienlife-arthurian",
     order = "a",
+    allow_productivity = true,
 }:add_unlock("assisted-embryology")
 
 ---maturing---

@@ -12,6 +12,7 @@ RECIPE {
         {type = "fluid", name = "artificial-blood", amount = 100},
     },
     --main_product = "cocoon",
+    allow_productivity = true,
 }:add_unlock("biotech-mk02")
 
 FLUID {

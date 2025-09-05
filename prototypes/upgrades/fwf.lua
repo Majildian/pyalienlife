@@ -46,6 +46,7 @@ if data and not yafc_turd_integration then
     wood_fast:multiply_result_amount("wood", 2)
     wood_fast.energy_required = 1
     wood_fast.enabled = false
+    wood_fast.allow_productivity = true
     data:extend {wood_fast}
 
     local machine_recipe = RECIPE("fwf-mk01"):copy()

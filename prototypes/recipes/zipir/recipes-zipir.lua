@@ -54,6 +54,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-crustacean-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("water-invertebrates-mk01")
 
 ----food----
@@ -78,6 +79,7 @@ RECIPE {
     results = {
         {type = "item", name = "zipir-food-01", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("zipir-mk03")
 
 RECIPE {
@@ -103,6 +105,7 @@ RECIPE {
     results = {
         {type = "item", name = "zipir-food-02", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("zipir-mk04")
 
 ---assisted embryology---
@@ -122,6 +125,7 @@ RECIPE {
         {type = "item", name = "zipir-pup", amount = 5},
     },
     main_product = "zipir-pup",
+    allow_productivity = true,
 }:add_unlock("assisted-embryology")
 
 RECIPE {

@@ -13,6 +13,7 @@ RECIPE {
     results = {
         {type = "item", name = "fawogae-spore", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("fawogae-mk01")
 
 -- RECIPE {

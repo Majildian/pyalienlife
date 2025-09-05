@@ -551,6 +551,7 @@ RECIPE {
     results = {
         {type = "item", name = "phosphate-rock", amount = 5},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -566,6 +567,7 @@ RECIPE {
     results = {
         {type = "item", name = "rare-earth-ore", amount = 20},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -581,6 +583,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "cyanic-acid", amount = 50},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -596,6 +599,7 @@ RECIPE {
     results = {
         {type = "item", name = "iron-ore", amount = 20},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -611,6 +615,7 @@ RECIPE {
     results = {
         {type = "item", name = "sulfur", amount = 5},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -626,6 +631,7 @@ RECIPE {
     results = {
         {type = "item", name = "copper-ore", amount = 10},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -641,6 +647,7 @@ RECIPE {
     results = {
         {type = "item", name = "urea", amount = 10},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -655,7 +662,8 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "ethylene", amount = 50}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("ethylene")
 
 RECIPE {
@@ -670,6 +678,7 @@ RECIPE {
     results = {
         {type = "item", name = "phenol", amount = 5},
     },
+    allow_productivity = true,
 }:add_unlock("phenol")
 
 RECIPE {
@@ -688,6 +697,7 @@ RECIPE {
     results = {
         {type = "item", name = "filtration-media", amount = 100},
     },
+    allow_productivity = true,
 }:add_unlock("microfibers")
 
 RECIPE {
@@ -703,6 +713,7 @@ RECIPE {
     results = {
         {type = "item", name = "urea", amount = 30},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("melamine")
 
@@ -718,6 +729,7 @@ RECIPE {
     results = {
         {type = "item", name = "raw-fiber", amount = 5},
     },
+    allow_productivity = true,
 }:add_unlock("kicalk")
 
 RECIPE {
@@ -733,6 +745,7 @@ RECIPE {
     results = {
         {type = "item", name = "cellulose", amount = 5}
     },
+    allow_productivity = true,
 }:add_unlock("cellulose-mk03")
 
 RECIPE {
@@ -748,6 +761,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "methane", amount = 150},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("kmauts")
 
@@ -955,6 +969,7 @@ RECIPE {
     results = {
         {type = "item", name = "phosphate-rock", amount = 7},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -970,6 +985,7 @@ RECIPE {
     results = {
         {type = "item", name = "phosphate-rock", amount = 3},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -985,6 +1001,7 @@ RECIPE {
     results = {
         {type = "item", name = "phosphate-rock", amount = 1},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -1000,6 +1017,7 @@ RECIPE {
     results = {
         {type = "item", name = "phosphate-rock", amount = 2},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -1015,6 +1033,7 @@ RECIPE {
     results = {
         {type = "item", name = "phosphate-rock", amount = 3},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk04")
 
@@ -1089,7 +1108,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "biopolymer", amount = 5}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("biopolymer")
 
 RECIPE {
@@ -1105,6 +1125,7 @@ RECIPE {
     results = {
         {type = "item", name = "phenol", amount = 6},
     },
+    allow_productivity = true,
     --main_product = 'b-molasse',
 }:add_unlock("phenol")
 
@@ -1131,6 +1152,7 @@ RECIPE {
     results = {
         {type = "item", name = "recombinant-ery", amount = 280},
     },
+    allow_productivity = true,
 }:add_unlock("recombinant-ery")
 
 RECIPE {
@@ -1170,8 +1192,8 @@ RECIPE {
     enabled = false,
     energy_required = 100,
     ingredients = {
-        {type = "fluid", name = "muddy-sludge", amount = 200, fluidbox_index = 2},
-        {type = "item",  name = "cadaveric-arum",    amount = 1},
+        {type = "fluid", name = "muddy-sludge",   amount = 200, fluidbox_index = 2},
+        {type = "item",  name = "cadaveric-arum", amount = 1},
     },
     results = {
         {type = "item",  name = "s-biomass",   amount = 10},
@@ -1189,9 +1211,9 @@ RECIPE {
     enabled = false,
     energy_required = 60,
     ingredients = {
-        {type = "fluid", name = "muddy-sludge", amount = 200, fluidbox_index = 2},
-        {type = "item",  name = "cadaveric-arum",    amount = 1},
-        {type = "fluid", name = "chelator",          amount = 50,  fluidbox_index = 3},
+        {type = "fluid", name = "muddy-sludge",   amount = 200, fluidbox_index = 2},
+        {type = "item",  name = "cadaveric-arum", amount = 1},
+        {type = "fluid", name = "chelator",       amount = 50,  fluidbox_index = 3},
     },
     results = {
         {type = "item",  name = "s-biomass",   amount = 20},
@@ -1209,10 +1231,10 @@ RECIPE {
     enabled = false,
     energy_required = 40,
     ingredients = {
-        {type = "fluid", name = "muddy-sludge", amount = 200, fluidbox_index = 2},
-        {type = "item",  name = "hmas",              amount = 1},
-        {type = "item",  name = "cadaveric-arum",    amount = 1},
-        {type = "fluid", name = "chelator",          amount = 50,  fluidbox_index = 3},
+        {type = "fluid", name = "muddy-sludge",   amount = 200, fluidbox_index = 2},
+        {type = "item",  name = "hmas",           amount = 1},
+        {type = "item",  name = "cadaveric-arum", amount = 1},
+        {type = "fluid", name = "chelator",       amount = 50,  fluidbox_index = 3},
     },
     results = {
         {type = "item",  name = "s-biomass",   amount = 60},
@@ -1231,7 +1253,7 @@ RECIPE {
     energy_required = 100,
     ingredients = {
         {type = "fluid", name = "muddy-sludge", amount = 200, fluidbox_index = 1},
-        {type = "item",  name = "kicalk",            amount = 1},
+        {type = "item",  name = "kicalk",       amount = 1},
     },
     results = {
         {type = "item",  name = "zn-biomass",  amount = 10},
@@ -1250,8 +1272,8 @@ RECIPE {
     energy_required = 60,
     ingredients = {
         {type = "fluid", name = "muddy-sludge", amount = 200, fluidbox_index = 1},
-        {type = "item",  name = "kicalk",            amount = 1},
-        {type = "fluid", name = "chelator",          amount = 50,  fluidbox_index = 2},
+        {type = "item",  name = "kicalk",       amount = 1},
+        {type = "fluid", name = "chelator",     amount = 50,  fluidbox_index = 2},
     },
     results = {
         {type = "item",  name = "zn-biomass",  amount = 20},
@@ -1270,9 +1292,9 @@ RECIPE {
     energy_required = 40,
     ingredients = {
         {type = "fluid", name = "muddy-sludge", amount = 200, fluidbox_index = 1},
-        {type = "item",  name = "kicalk",            amount = 1},
-        {type = "item",  name = "hmas",              amount = 1},
-        {type = "fluid", name = "chelator",          amount = 50,  fluidbox_index = 2},
+        {type = "item",  name = "kicalk",       amount = 1},
+        {type = "item",  name = "hmas",         amount = 1},
+        {type = "fluid", name = "chelator",     amount = 50,  fluidbox_index = 2},
     },
     results = {
         {type = "item",  name = "zn-biomass",  amount = 80},
@@ -1434,6 +1456,7 @@ RECIPE {
     results = {
         {type = "item", name = "mosfet", amount = 4},
     },
+    allow_productivity = true,
     --main_product = 'chloral',
 }:add_unlock("basic-electronics")
 
@@ -1460,6 +1483,7 @@ RECIPE {
     results = {
         {type = "item", name = "cooling-system", amount = 1},
     },
+    allow_productivity = true,
     --main_product = 'chloral',
 }:add_unlock("advanced-circuit")
 
@@ -1594,8 +1618,6 @@ data.raw["recipe"]["ralesia"] = nil
 
 data.raw["recipe"]["fertilizer-2"].results = {{type = "item", name = "fertilizer", amount = 15}}
 RECIPE("fertilizer-2"):add_unlock("biofluid-mk01"):add_ingredient {type = "item", name = "guano", amount = 2}:add_ingredient_amount("ammonium-chloride", -18)
-
-py.allow_productivity {"cellulose-01"}
 
 data.raw.recipe["blood-meal"].ingredients = {
     {type = "fluid", name = "blood",      amount = 100},

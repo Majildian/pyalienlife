@@ -12,6 +12,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "zogna-bacteria", amount = 20},
     },
+    allow_productivity = true,
     --main_product = "cocoon",
 }:add_unlock("microbiology-mk01")
 

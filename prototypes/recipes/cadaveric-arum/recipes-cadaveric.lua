@@ -20,6 +20,7 @@ RECIPE {
     results = {
         {type = "item", name = "cadaveric-arum", amount = 2},
     },
+    allow_productivity = true,
 }:add_unlock("cadaveric-arum")
 
 RECIPE {
@@ -142,4 +143,5 @@ RECIPE {
     results = {
         {type = "item", name = "replicator-cadaveric-arum", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("mega-farm-cadaveric-arum"):add_ingredient {type = "item", name = "nems", amount = 10}:add_ingredient {type = "item", name = "carbon-nanotube", amount = 10}

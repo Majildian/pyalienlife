@@ -19,6 +19,7 @@ RECIPE {
     results = {
         {type = "item", name = "cridren", amount = 2},
     },
+    allow_productivity = true,
 }:add_unlock("cridren")
 
 RECIPE {
@@ -51,6 +52,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-venus-fly-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("cridren")
 
 -----SEEDS----

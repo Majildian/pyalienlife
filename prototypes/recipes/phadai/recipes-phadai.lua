@@ -21,6 +21,7 @@ RECIPE {
     results = {
         {type = "item", name = "phadai", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("phadai")
 
 RECIPE {
@@ -53,6 +54,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-tiger-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("phadai")
 
 ----food----
@@ -78,6 +80,7 @@ RECIPE {
     results = {
         {type = "item", name = "phadai-food-01", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("phadai")
 
 RECIPE {
@@ -104,6 +107,7 @@ RECIPE {
     results = {
         {type = "item", name = "phadai-food-02", amount = 5},
     },
+    allow_productivity = true,
 }:add_unlock("phadai-mk03")
 
 ---breeding---

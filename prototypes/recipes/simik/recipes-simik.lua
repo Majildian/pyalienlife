@@ -80,6 +80,7 @@ RECIPE {
     results = {
         {type = "item", name = "simik-food-01", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("simik-mk01")
 
 RECIPE {
@@ -106,6 +107,7 @@ RECIPE {
     results = {
         {type = "item", name = "simik-food-02", amount = 10},
     },
+    allow_productivity = true,
 }:add_unlock("simik-mk03")
 
 ---breeding---

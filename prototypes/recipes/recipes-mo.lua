@@ -27,6 +27,7 @@ RECIPE {
     results = {
         {type = "item", name = "plasmids", amount = 1},
     },
+    allow_productivity = true,
     --main_product = "cocoon",
 }:add_unlock("genetics-mk02")
 
@@ -46,6 +47,7 @@ RECIPE {
     results = {
         {type = "item", name = "retrovirus", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk02")
 
 RECIPE {
@@ -65,6 +67,7 @@ RECIPE {
     results = {
         {type = "item", name = "retrovirus", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk03")
 
 RECIPE {
@@ -86,6 +89,7 @@ RECIPE {
     results = {
         {type = "item", name = "cdna", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk02")
 
 RECIPE {
@@ -104,6 +108,7 @@ RECIPE {
     results = {
         {type = "item", name = "primers", amount = 1, probability = 0.7},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk03")
 
 RECIPE {
@@ -123,6 +128,7 @@ RECIPE {
     results = {
         {type = "item", name = "primers", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk04")
 
 RECIPE {
@@ -143,6 +149,7 @@ RECIPE {
     results = {
         {type = "item", name = "primers", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk05")
 
 RECIPE {
@@ -161,6 +168,7 @@ RECIPE {
     results = {
         {type = "item", name = "dna-polymerase", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk03")
 
 RECIPE {
@@ -179,6 +187,7 @@ RECIPE {
     results = {
         {type = "item", name = "dna-polymerase", amount = 2},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk04")
 
 RECIPE {
@@ -201,6 +210,7 @@ RECIPE {
     results = {
         {type = "item", name = "alien-sample-02", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk03")
 
 RECIPE {
@@ -224,6 +234,7 @@ RECIPE {
     results = {
         {type = "item", name = "alien-sample-03", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk04")
 
 RECIPE {
@@ -245,6 +256,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "gta", amount = 50},
     },
+    allow_productivity = true,
     --main_product = "cocoon",
 }:add_unlock("genetics-mk05")
 
@@ -264,6 +276,7 @@ RECIPE {
     results = {
         {type = "item", name = "cysteine", amount = 5},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk05"):replace_ingredient("bacteria-1", "bacteria-2")
 
 RECIPE {
@@ -288,6 +301,7 @@ RECIPE {
     results = {
         {type = "item", name = "adam42-gen", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk05")
 
 RECIPE {
@@ -310,6 +324,7 @@ RECIPE {
     results = {
         {type = "item", name = "zinc-finger-proteins", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk05")
 
 RECIPE {
@@ -375,7 +390,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "propeptides", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("chitin")
 
 RECIPE {
@@ -392,7 +408,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "purine-analogues", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("immunosupressants")
 
 RECIPE {
@@ -411,7 +428,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "immunosupressants", amount = 1}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("immunosupressants")
 
 RECIPE {
@@ -435,6 +453,7 @@ RECIPE {
     results = {
         {type = "item", name = "antitumor", amount = 250},
     },
+    allow_productivity = true,
 }:add_unlock("antitumor"):replace_ingredient("cytostatics", "superconductor-servomechanims")
 
 RECIPE {
@@ -459,6 +478,7 @@ RECIPE {
     results = {
         {type = "item", name = "antitumor", amount = 290},
     },
+    allow_productivity = true,
 }:add_unlock("antitumor"):replace_ingredient("cytostatics", "superconductor-servomechanims")
 
 RECIPE {
@@ -479,6 +499,7 @@ RECIPE {
     results = {
         {type = "item", name = "dynemicin", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk05"):replace_ingredient("bacteria-1", "bacteria-2")
 
 RECIPE {
@@ -499,6 +520,7 @@ RECIPE {
     results = {
         {type = "item", name = "enediyne", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("genetics-mk05")
 
 RECIPE {
@@ -520,6 +542,7 @@ RECIPE {
     results = {
         {type = "item", name = "enzyme-pks", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("pharmacogenomics")
 
 RECIPE {
@@ -542,6 +565,7 @@ RECIPE {
     results = {
         {type = "item", name = "recombinant-ery", amount = 200},
     },
+    allow_productivity = true,
 }:add_unlock("recombinant-ery")
 
 RECIPE {
@@ -566,6 +590,7 @@ RECIPE {
     results = {
         {type = "item", name = "recombinant-ery", amount = 240},
     },
+    allow_productivity = true,
 }:add_unlock("recombinant-ery")
 
 RECIPE {

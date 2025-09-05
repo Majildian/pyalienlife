@@ -20,6 +20,7 @@ RECIPE {
     results = {
         {type = "item", name = "navens", amount = 2},
     },
+    allow_productivity = true,
 }:add_unlock("navens")
 
 RECIPE {
@@ -49,6 +50,7 @@ RECIPE {
     results = {
         {type = "item", name = "navens-spore", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("navens"):add_unlock("microfilters")
 
 -- RECIPE {

@@ -20,6 +20,7 @@ RECIPE {
     results = {
         {type = "item", name = "ralesia", amount = 2},
     },
+    allow_productivity = true,
 }:add_unlock("ralesia")
 
 RECIPE {
@@ -53,6 +54,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-flower-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("ralesia")
 
 RECIPE {
@@ -73,4 +75,5 @@ RECIPE {
     results = {
         {type = "item", name = "replicator-ralesia", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("mega-farm-ralesia"):add_ingredient {type = "item", name = "nems", amount = 10}:add_ingredient {type = "item", name = "carbon-nanotube", amount = 10}

@@ -26,4 +26,5 @@ RECIPE {
     results = {
         {type = "fluid", name = "formic-acid", amount = 100},
     },
+    allow_productivity = true,
 }:add_unlock("biotech-mk02")

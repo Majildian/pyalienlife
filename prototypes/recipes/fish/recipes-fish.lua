@@ -23,6 +23,7 @@ RECIPE {
     results = {
         {type = "item", name = "fish-food-01", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("fish-mk02")
 
 RECIPE {
@@ -49,6 +50,7 @@ RECIPE {
     results = {
         {type = "item", name = "fish-food-02", amount = 5},
     },
+    allow_productivity = true,
 }:add_unlock("fish-mk03")
 
 ---breeding---

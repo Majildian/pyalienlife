@@ -82,7 +82,8 @@ if data and not yafc_turd_integration then
         },
         enabled = false,
         category = "biofactory",
-        main_product = "grease"
+        main_product = "grease",
+        allow_productivity = true,
     }}
 end
 

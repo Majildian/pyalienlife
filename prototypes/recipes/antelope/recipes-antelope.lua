@@ -20,6 +20,7 @@ RECIPE {
     results = {
         {type = "item", name = "antelope", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("schrodinger-antelope")
 
 RECIPE {
@@ -52,6 +53,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-antelope-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("schrodinger-antelope")
 
 

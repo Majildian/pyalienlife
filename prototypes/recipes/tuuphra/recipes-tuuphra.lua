@@ -20,6 +20,7 @@ RECIPE {
     results = {
         {type = "item", name = "tuuphra", amount = 2},
     },
+    allow_productivity = true,
 }:add_unlock("tuuphra")
 
 RECIPE {
@@ -53,6 +54,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-potato-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("tuuphra")
 
 ---breeding---
@@ -71,6 +73,7 @@ RECIPE {
     results = {
         {type = "item", name = "tuuphra-seeds", amount = 8}
     },
+    allow_productivity = true,
 }:add_unlock("tuuphra")
 
 RECIPE {
@@ -92,4 +95,5 @@ RECIPE {
     results = {
         {type = "item", name = "replicator-tuuphra", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("mega-farm-tuuphra"):add_ingredient {type = "item", name = "nems", amount = 10}:add_ingredient {type = "item", name = "carbon-nanotube", amount = 10}

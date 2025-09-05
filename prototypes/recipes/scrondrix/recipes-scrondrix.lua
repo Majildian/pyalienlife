@@ -22,6 +22,7 @@ RECIPE {
     results = {
         {type = "item", name = "scrondrix", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("scrondrix")
 
 RECIPE {
@@ -54,6 +55,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-roadrunner-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("scrondrix")
 
 ----food----

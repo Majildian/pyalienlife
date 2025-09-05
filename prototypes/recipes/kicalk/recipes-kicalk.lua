@@ -20,6 +20,7 @@ RECIPE {
     results = {
         {type = "item", name = "kicalk", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("kicalk")
 
 RECIPE {
@@ -53,6 +54,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-palmtree-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("kicalk")
 
 ---breeding---
@@ -95,4 +97,5 @@ RECIPE {
     results = {
         {type = "item", name = "replicator-kicalk", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("mega-farm-kicalk"):add_ingredient {type = "item", name = "nems", amount = 10}:add_ingredient {type = "item", name = "carbon-nanotube", amount = 10}

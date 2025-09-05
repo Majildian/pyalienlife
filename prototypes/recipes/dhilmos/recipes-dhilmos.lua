@@ -21,6 +21,7 @@ RECIPE {
     results = {
         {type = "item", name = "dhilmos", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("dhilmos")
 
 RECIPE {
@@ -63,6 +64,7 @@ RECIPE {
     main_product = "dhilmos-pup",
     subgroup = "py-alienlife-dhilmos",
     order = "a",
+    allow_productivity = true,
 }:add_unlock("assisted-embryology")
 
 ---maturing---
@@ -128,6 +130,7 @@ RECIPE {
     results = {
         {type = "item", name = "dhilmos-food-01", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("dhilmos-mk02")
 
 RECIPE {
@@ -152,4 +155,5 @@ RECIPE {
     results = {
         {type = "item", name = "dhilmos-food-02", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("dhilmos-mk03")

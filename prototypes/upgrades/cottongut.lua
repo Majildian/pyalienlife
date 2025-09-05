@@ -30,7 +30,8 @@ if data and not yafc_turd_integration then
             {type = "item",  name = "wood-seeds",        amount = 2},
             {type = "item",  name = "native-flora",      amount = 15}
         },
-        results = {{type = "item", name = "cottongut-food-03", amount = 8}}
+        results = {{type = "item", name = "cottongut-food-03", amount = 8}},
+        allow_productivity = true,
     }}
 
     for _, recipe in pairs {

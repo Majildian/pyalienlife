@@ -19,6 +19,7 @@ RECIPE {
     results = {
         {type = "item", name = "sea-sponge", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("water-invertebrates-mk01")
 
 RECIPE {
@@ -52,6 +53,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-sea-sponge-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("water-invertebrates-mk01")
 
 ----food----
@@ -68,7 +70,7 @@ py.autorecipes {
             ingredients =
             {
                 {type = "item",  name = "sea-sponge-sprouts", amount = 1},
-                {type = "fluid", name = "muddy-sludge",  amount = 100},
+                {type = "fluid", name = "muddy-sludge",       amount = 100},
                 {type = "fluid", name = "zogna-bacteria",     amount = 40},
             },
             results =
@@ -82,8 +84,8 @@ py.autorecipes {
         {
             ingredients =
             {
-                {type = "fluid", name = "muddy-sludge", remove_item = true},
-                {type = "fluid", name = "phytoplankton",     amount = 40},
+                {type = "fluid", name = "muddy-sludge",  remove_item = true},
+                {type = "fluid", name = "phytoplankton", amount = 40},
             },
             results =
             {
@@ -112,6 +114,7 @@ RECIPE {
     },
     subgroup = "py-alienlife-items",
     order = "c",
+    allow_productivity = true,
 }:add_unlock("water-invertebrates-mk01")
 
 RECIPE {
@@ -128,6 +131,7 @@ RECIPE {
     },
     subgroup = "py-alienlife-items",
     order = "c",
+    allow_productivity = true,
 }:add_unlock("water-invertebrates-mk01")
 
 
@@ -144,6 +148,7 @@ RECIPE {
     results = {
         {type = "item", name = "sea-sponge-sprouts", amount = 2},
     },
+    allow_productivity = true,
 }:add_unlock("water-invertebrates-mk01")
 
 RECIPE {
@@ -158,6 +163,7 @@ RECIPE {
     results = {
         {type = "item", name = "sea-sponge-sprouts", amount = 4},
     },
+    allow_productivity = true,
 }:add_unlock("water-invertebrates-mk02")
 
 RECIPE {
@@ -172,6 +178,7 @@ RECIPE {
     results = {
         {type = "item", name = "sea-sponge-sprouts", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("water-invertebrates-mk03")
 
 RECIPE {
@@ -186,4 +193,5 @@ RECIPE {
     results = {
         {type = "item", name = "sea-sponge-sprouts", amount = 8},
     },
+    allow_productivity = true,
 }:add_unlock("water-invertebrates-mk04")

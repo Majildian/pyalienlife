@@ -19,6 +19,7 @@ RECIPE {
     results = {
         {type = "item", name = "ulric", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("ulric")
 
 RECIPE {
@@ -52,6 +53,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-horse-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("ulric")
 
 ----food----
@@ -74,6 +76,7 @@ RECIPE {
     results = {
         {type = "item", name = "ulric-food-01", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("ulric")
 
 RECIPE {
@@ -98,6 +101,7 @@ RECIPE {
     results = {
         {type = "item", name = "ulric-food-02", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("ulric-mk03")
 
 ---maturing---

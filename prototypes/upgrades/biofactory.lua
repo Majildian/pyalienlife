@@ -72,6 +72,7 @@ if data and not yafc_turd_integration then
         results = {
             {type = "item", name = "filtration-media", amount = 150},
         },
+        allow_productivity = true,
     }:add_ingredient {type = "item", name = "micro-fiber", amount = 15}
 end
 

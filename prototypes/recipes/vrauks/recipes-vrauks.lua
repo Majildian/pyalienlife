@@ -14,6 +14,7 @@ RECIPE {
     results = {
         {type = "item", name = "vrauks", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("vrauks")
 
 RECIPE {
@@ -51,6 +52,7 @@ RECIPE {
     results = {
         {type = "item", name = "vrauks-food-01", amount = 4},
     },
+    allow_productivity = true,
 }:add_unlock("vrauks-mk02")
 
 RECIPE {
@@ -76,6 +78,7 @@ RECIPE {
     results = {
         {type = "item", name = "vrauks-food-02", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("vrauks-mk03"):add_ingredient {type = "item", name = "fiberboard", amount = 2}
 
 ---caged---

@@ -82,7 +82,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "explosives", amount = 8},
-    }
+    },
+    allow_productivity = true,
 }:add_unlock {"biofluid-mk02"}
 
 FLUID {

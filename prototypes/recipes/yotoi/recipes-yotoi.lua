@@ -21,6 +21,7 @@ RECIPE {
     results = {
         {type = "item", name = "yotoi", amount = 2},
     },
+    allow_productivity = true,
 }:add_unlock("yotoi")
 
 RECIPE {
@@ -53,6 +54,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-tropical-tree-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("yotoi")
 
 ---breeding---
@@ -73,6 +75,7 @@ RECIPE {
     results = {
         {type = "item", name = "yotoi-seeds", amount = 3}
     },
+    allow_productivity = true,
 }:add_unlock("yotoi")
 
 -----LEAVES----
@@ -89,6 +92,7 @@ RECIPE {
     results = {
         {type = "item", name = "yotoi-leaves", amount = 5}
     },
+    allow_productivity = true,
 }:add_unlock("yotoi")
 
 -----REPLICATOR----
@@ -112,6 +116,7 @@ RECIPE {
     results = {
         {type = "item", name = "replicator-yotoi", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("mega-farm-yotoi"):add_ingredient {type = "item", name = "nems", amount = 10}:add_ingredient {type = "item", name = "carbon-nanotube", amount = 10}
 
 RECIPE {
@@ -133,4 +138,5 @@ RECIPE {
     results = {
         {type = "item", name = "replicator-yotoi-fruit", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("mega-farm-yotoi"):add_ingredient {type = "item", name = "nems", amount = 10}:add_ingredient {type = "item", name = "carbon-nanotube", amount = 10}

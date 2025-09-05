@@ -135,7 +135,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "fertilizer", amount = 15}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("fertilizer-mk03"):replace_ingredient("manure", "urea")
 
 RECIPE {

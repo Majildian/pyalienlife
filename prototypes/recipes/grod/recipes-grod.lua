@@ -20,6 +20,7 @@ RECIPE {
     results = {
         {type = "item", name = "grod", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("grod")
 
 RECIPE {
@@ -53,6 +54,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-jute-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("grod")
 
 ---breeding---
@@ -94,4 +96,5 @@ RECIPE {
     results = {
         {type = "item", name = "replicator-grod", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("mega-farm-grod"):add_ingredient {type = "item", name = "nems", amount = 10}:add_ingredient {type = "item", name = "carbon-nanotube", amount = 10}

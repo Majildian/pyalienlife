@@ -19,6 +19,7 @@ RECIPE {
     results = {
         {type = "item", name = "auog", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("auog")
 
 RECIPE {
@@ -52,6 +53,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-bear-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("auog")
 
 ----food----
@@ -73,6 +75,7 @@ RECIPE {
     results = {
         {type = "item", name = "auog-food-01", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("auog")
 
 RECIPE {
@@ -97,6 +100,7 @@ RECIPE {
     results = {
         {type = "item", name = "auog-food-02", amount = 5},
     },
+    allow_productivity = true,
 }:add_unlock("auog-mk02")
 
 ---breeding---

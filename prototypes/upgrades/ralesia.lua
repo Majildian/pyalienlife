@@ -20,6 +20,7 @@ if data and not yafc_turd_integration then
                 {name = "hot-air",   type = "fluid", amount = 25},
             },
             results = {{type = "item", name = "paper-towel", amount = 4}},
+            allow_productivity = true,
         }
     }
 

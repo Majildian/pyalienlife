@@ -20,6 +20,7 @@ RECIPE {
     results = {
         {type = "item", name = "mukmoux", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("mukmoux")
 
 RECIPE {
@@ -53,6 +54,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-cow-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("korlex")
 
 ----food----
@@ -75,6 +77,7 @@ RECIPE {
     results = {
         {type = "item", name = "mukmoux-food-01", amount = 3},
     },
+    allow_productivity = true,
 }:add_unlock("mukmoux")
 
 RECIPE {
@@ -98,6 +101,7 @@ RECIPE {
     results = {
         {type = "item", name = "mukmoux-food-02", amount = 5},
     },
+    allow_productivity = true,
 }:add_unlock("mukmoux-mk03")
 
 ---breeding---

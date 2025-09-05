@@ -12,6 +12,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "manure-bacteria", amount = 100},
     },
+    allow_productivity = true,
     --main_product = "cocoon",
 }:add_unlock("microbiology-mk02")
 

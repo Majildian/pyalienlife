@@ -107,6 +107,7 @@ RECIPE {
     results = {
         {type = "item", name = "dried-grods", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("grod")
 
 RECIPE {
@@ -120,7 +121,8 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "raw-gas", amount = 50}
-    }
+    },
+    allow_productivity = true,
 }:add_unlock("phagnot-mk02").category = "gas-refinery"
 
 RECIPE {
@@ -147,7 +149,7 @@ RECIPE {
     energy_required = 50,
     ingredients = {
         {type = "fluid", name = "muddy-sludge", amount = 200, fluidbox_index = 1},
-        {type = "item",  name = "guar-seeds",        amount = 40},
+        {type = "item",  name = "guar-seeds",   amount = 40},
     },
     results = {
         {type = "item",  name = "nb-biomass",  amount = 10},
@@ -166,8 +168,8 @@ RECIPE {
     energy_required = 40,
     ingredients = {
         {type = "fluid", name = "muddy-sludge", amount = 200, fluidbox_index = 1},
-        {type = "item",  name = "guar-seeds",        amount = 40},
-        {type = "fluid", name = "chelator",          amount = 50,  fluidbox_index = 2},
+        {type = "item",  name = "guar-seeds",   amount = 40},
+        {type = "fluid", name = "chelator",     amount = 50,  fluidbox_index = 2},
     },
     results = {
         {type = "item",  name = "nb-biomass",  amount = 20},
@@ -186,9 +188,9 @@ RECIPE {
     energy_required = 30,
     ingredients = {
         {type = "fluid", name = "muddy-sludge", amount = 200, fluidbox_index = 1},
-        {type = "item",  name = "guar-seeds",        amount = 40},
-        {type = "fluid", name = "chelator",          amount = 50,  fluidbox_index = 2},
-        {type = "item",  name = "hmas",              amount = 1},
+        {type = "item",  name = "guar-seeds",   amount = 40},
+        {type = "fluid", name = "chelator",     amount = 50,  fluidbox_index = 2},
+        {type = "item",  name = "hmas",         amount = 1},
     },
     results = {
         {type = "item",  name = "nb-biomass",  amount = 60},
@@ -220,7 +222,8 @@ RECIPE {
     icon = "__pycoalprocessinggraphics__/graphics/icons/mip/lab-05.png",
     icon_size = 64,
     subgroup = "py-items",
-    order = "o"
+    order = "o",
+    allow_productivity = true,
 }:add_unlock("electric-engine")
 
 RECIPE("fawogae-mk04-breeder"):replace_ingredient("iron-plate", "nb-biomass")

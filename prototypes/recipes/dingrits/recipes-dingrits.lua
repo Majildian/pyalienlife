@@ -53,6 +53,7 @@ RECIPE {
     results = {
         {type = "item", name = "earth-wolf-sample", amount = 1},
     },
+    allow_productivity = true,
 }:add_unlock("dingrits")
 
 ----food----
@@ -77,6 +78,7 @@ RECIPE {
     results = {
         {type = "item", name = "dingrits-food-01", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("dingrits")
 
 RECIPE {
@@ -102,6 +104,7 @@ RECIPE {
     results = {
         {type = "item", name = "dingrits-food-02", amount = 6},
     },
+    allow_productivity = true,
 }:add_unlock("dingrits-mk02")
 
 ---breeding---

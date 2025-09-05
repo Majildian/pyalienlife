@@ -10,6 +10,7 @@ RECIPE {
     results = {
         {type = "item", name = "iron-ore", amount = 10},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion")
 
@@ -25,6 +26,7 @@ RECIPE {
     results = {
         {type = "item", name = "iron-ore", amount = 10},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -41,6 +43,7 @@ RECIPE {
     results = {
         {type = "item", name = "copper-ore", amount = 35},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -56,6 +59,7 @@ RECIPE {
     results = {
         {type = "item", name = "copper-ore", amount = 20},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -71,6 +75,7 @@ RECIPE {
     results = {
         {type = "item", name = "copper-ore", amount = 20},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -86,6 +91,7 @@ RECIPE {
     results = {
         {type = "item", name = "copper-ore", amount = 10},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -101,6 +107,7 @@ RECIPE {
     results = {
         {type = "item", name = "copper-ore", amount = 15},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -116,6 +123,7 @@ RECIPE {
     results = {
         {type = "item", name = "iron-ore", amount = 20},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -131,6 +139,7 @@ RECIPE {
     results = {
         {type = "item", name = "iron-ore", amount = 6},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -146,6 +155,7 @@ RECIPE {
     results = {
         {type = "item", name = "iron-ore", amount = 5},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion")
 
@@ -176,6 +186,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "nitrogen", amount = 150},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -191,6 +202,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "chlorine", amount = 100},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion")
 
@@ -206,6 +218,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "chlorine", amount = 50},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -222,6 +235,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-zinc", amount = 30},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -237,6 +251,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-zinc", amount = 5},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -252,6 +267,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-zinc", amount = 20},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -268,6 +284,7 @@ RECIPE {
         {type = "item", name = "ore-titanium", amount = 10},
     },
     --main_product = 'cocoon',
+    allow_productivity = true,
 }:add_unlock("molecular-decohesion-mk02")
 
 RECIPE {
@@ -282,6 +299,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-titanium", amount = 17},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -297,6 +315,7 @@ RECIPE {
     results = {
         {type = "item", name = "sulfur", amount = 12},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -312,6 +331,7 @@ RECIPE {
     results = {
         {type = "item", name = "sulfur", amount = 5},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -327,6 +347,7 @@ RECIPE {
     results = {
         {type = "item", name = "copper-ore", amount = 10},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -342,6 +363,7 @@ RECIPE {
     results = {
         {type = "item", name = "copper-ore", amount = 8},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -357,6 +379,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-zinc", amount = 12},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk04")
 
@@ -372,6 +395,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-zinc", amount = 15},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk04")
 
@@ -387,6 +411,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-aluminium", amount = 25},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk04")
 
@@ -402,6 +427,7 @@ RECIPE {
     results = {
         {type = "item", name = "molybdenum-ore", amount = 30},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -417,6 +443,7 @@ RECIPE {
     results = {
         {type = "item", name = "molybdenum-ore", amount = 5},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -432,6 +459,7 @@ RECIPE {
     results = {
         {type = "item", name = "molybdenum-ore", amount = 10},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk04")
 
@@ -447,6 +475,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-chromium", amount = 17},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -462,6 +491,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-chromium", amount = 10},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -477,6 +507,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-chromium", amount = 15},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -492,6 +523,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-chromium", amount = 25},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -507,6 +539,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-tin", amount = 15},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion")
 
@@ -522,6 +555,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-tin", amount = 25},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -537,6 +571,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-tin", amount = 10},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -552,6 +587,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-tin", amount = 5},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk03")
 
@@ -567,6 +603,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-tin", amount = 17},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 
@@ -582,6 +619,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "nitrogen", amount = 50},
     },
+    allow_productivity = true,
     --main_product = 'cocoon',
 }:add_unlock("molecular-decohesion-mk02")
 

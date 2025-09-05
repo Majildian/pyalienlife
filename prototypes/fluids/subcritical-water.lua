@@ -26,6 +26,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "subcritical-water", amount = 1500},
     },
+    allow_productivity = true,
     main_product = "subcritical-water"
 }:add_unlock("bhoddos-mk02")
 
